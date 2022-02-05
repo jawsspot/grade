@@ -6,11 +6,13 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { AutoCompleteControlComponent } from './control/auto-complete-value-accessor'
+import { FlickeringDirective } from './directive/flickering.directive';
 
 @NgModule({
   declarations: [
     AppComponent,
-    AutoCompleteControlComponent
+    AutoCompleteControlComponent,
+    FlickeringDirective
   ],
   imports: [
     BrowserModule,
