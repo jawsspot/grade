@@ -1,0 +1,6 @@
+<input #input type="text" (click)='open()'>
+<div #listRef>
+    <div *ngFor="let item of itemList">
+        <div (click)="updateValue(item)">{{item}}</div>
+    </div>
+</div>
