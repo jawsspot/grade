@@ -8,11 +8,14 @@ import { AppComponent } from './app.component';
 import { AutoCompleteControlComponent } from './control/auto-complete-value-accessor'
 import { FlickeringDirective } from './directive/flickering.directive';
 
+import { IframeComponent } from './iframe/iframe.component';
+
 @NgModule({
   declarations: [
     AppComponent,
     AutoCompleteControlComponent,
-    FlickeringDirective
+    FlickeringDirective,
+    IframeComponent
   ],
   imports: [
     BrowserModule,
